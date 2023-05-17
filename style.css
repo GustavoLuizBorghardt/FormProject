@@ -1,0 +1,440 @@
+/*fundo do menu*/
+.super_nav {
+    background-image: linear-gradient(90deg,  #005b0f 18%, #017b5d, rgb(53, 146, 143), 
+    #0a4310, #125017, #005b0f, #064402) !important;
+border-bottom: 2px solid rgba(255, 255, 255,);
+
+}
+
+.bg-light{
+    background-image: linear-gradient(90deg,  #ddf53f 18%, rgb(53, 146, 143), 
+    rgb(53, 146, 143), #06601e, #a8bd1b );
+border-bottom: 2px solid rgba(255, 255, 255,);
+color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+   color: #fff;
+   opacity: 0.9;
+   font-weight: 500;
+   border-bottom: 4px solid #00205b00;
+   border-radius: 4px #00205b00 ;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff!important;
+}
+
+.menu_inter{
+    padding-left: 30px;
+
+}
+
+.btn-outline-success:hover{
+    background-image: linear-gradient(90deg,  #054b10 18%, rgb(53, 146, 143), 
+    rgb(53, 146, 143), #014222, #064203, #03410e );
+}
+
+
+/*
+.navbar-light .navbar-nav .nav-link.active::after{
+    content: "";
+    left: 1rem;
+    right: 1rem;
+    background: #fff;
+    height: 4px;
+    bottom: -4px;
+    position: absolute;
+    border-radius: 2px 2px 0 0;
+    transition: all .25s!important;
+
+}
+*/
+
+
+
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: #fff;
+   opacity: 0.9;
+   background-color: #003089;
+   background-image: linear-gradient(90deg, rgb(69, 183, 179), #003089);
+   transition: 2s;
+   border-bottom: 4px solid rgb(255, 255, 255);
+   border-radius: 4px;
+   transition: 0.8s;
+}
+
+
+
+.azinho{
+    width: 50px;
+    height: 50px;
+}    
+
+.azinho_texto{
+    padding-left: 20px;
+}    
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+
+
+
+/*Feature na Empresa*/
+
+#back_empresa{
+    background-image:url(./img/ambiente.jpg) !important;
+}
+
+#back_empresa2{
+    background-image:url(./img/Hydrogen01.jpg) !important;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color:#fff;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+#back_empresa2{
+    background-image:url(./img/Hydrogen01.jpg) !important;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color:#fff;
+    line-height: 1.8rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+#back_empresa3{
+    background-image:url(./img/zeroEmp.jpg) !important;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color:#fff;
+    line-height: 1.8rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+hr {
+    margin: 0px 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+
+.video{
+    width: 100%;
+}
+
+h1 {
+       
+     color: #ffffff;  
+     margin-top: 1px;
+     margin-bottom: 2.5rem;
+     filter: drop-shadow(1px 1px 2px rgb(39, 39, 39));
+     font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;;
+     
+   }
+
+  #texto_noticias{
+    color: black !important;  
+    filter: opacity(85%);
+    font-weight: 500;
+margin-top: 50px;
+margin-bottom: 5px ;
+
+   }
+
+.btn-video{
+    margin-bottom: 4.5rem;
+    filter: opacity(80%);
+
+}
+.btn-video:hover{
+ 
+    color: #fff !important;
+    border-color: #3b527c !important;
+    background-color: #2f4979 !important;
+    filter: opacity(95%);
+
+
+}
+
+.video-control {
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    min-width: 7.5em;
+    padding: 0.5em 1em;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.video-control:not(.playing) .video-control-pause, .video-control.playing .video-control-play {
+    display: none;
+}
+
+
+.video-control-label, .video-control-symbol {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#row{
+background-image: linear-gradient(90deg,  #00205b 18%, rgb(53, 146, 143), 
+#00205b, #00205b, #00205b, #00205b );
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+.svg{
+    height: 24;
+    width: 24;
+}
+
+.svg:not(:root) {
+    overflow: hidden;
+}
+
+.video-control-symbol {
+    color: #FFF;
+    vertical-align: -0.15em;
+}
+
+
+.servicon{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+.rounded-circle{
+    background-color: rgb(197, 202, 214);
+    opacity: 0.88;
+}
+
+.btn-secondary{
+
+    color: #fff;
+    border: 2px solid #002d80;
+    position: relative;
+    background-color: #002d80;
+    border-radius: 4px;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.btn-secondary:hover {
+
+    background-color:  #fff;
+    border: 2px solid  #002d80;
+    color:  #002d80;
+}
+
+.btn-contra{
+
+    background-color:  #fff;
+    border: 2px solid  #002d80;
+    color:  #002d80;
+
+}
+
+.btn-contra:hover{
+    color: #002d80;
+    border: 2px solid #002d80;
+    position: relative;
+    background-color: #d8d8d8;
+    border-radius: 4px;
+    text-transform: none;
+    vertical-align: middle;
+
+}
+
+
+.shadow-sm{
+    filter: drop-shadow(8px 8px 10px rgb(174, 174, 174));
+
+}
+
+.col-md-7{
+
+padding: 100px; 
+padding-top: 30px;   
+
+}
+
+.foto-feature{
+
+    filter: drop-shadow(8px 8px 10px gray);
+    padding: 30px;
+    padding-left: 50px;
+    padding-top:50px ;
+}
+
+
+.foto-feature2{
+        
+    filter: drop-shadow(8px 8px 10px gray);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+footer{
+    background-image: url(./img/sky.jpg);
+}
+  
+.icones{
+    width: 50px;
+    height: 50px;
+}
+
+.icone_contato{
+    width: 138px;
+    height: 50px;
+}
+
+.final_foot{
+    color: #fff;
+    height:60px ;
+    font-size: 15px;
+    filter: opacity(90%);
+    text-align: left;
+    padding:0 15px;
+    padding-top: 20px;
+    width: auto;
+    max-width: 1920px;
+    background-image: linear-gradient(90deg,  #00205b 18%, rgb(53, 146, 143), 
+#00205b, #00205b, #00205b, #00205b );
+}
+
+.contact_bk{
+    background-image: url(./img/contact_form.jpg)  ;
+    
+
+
+}
+.contact_bk h1{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    filter: opacity(90%); 
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    padding-top: 120px;
+
+}
+
+.img_contato{
+    width: 100%;
+}
+
+.formulario{
+    padding-left: 20px;
+}
+
+#icon-grid{
+color: #fff;
+padding: 20px;
+background-image: linear-gradient(90deg,  #00205b 18%, rgb(29, 79, 91), 
+#00205b, #00205b, #00205b, #00205b );
+
+}
+.redes_sociais a{
+    color: #FFF !important;
+
+    text-decoration: none;
+}
+
+.pe a{
+    color: #FFF !important;
+
+    text-decoration: none;
+    margin-left: 20px;
+
+}
